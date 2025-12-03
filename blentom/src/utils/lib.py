@@ -1,4 +1,8 @@
-import console_python
+
+try:
+    import console_python
+except Exception as e:
+    print(e)
 from inspect import currentframe
 
 import bpy
